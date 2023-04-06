@@ -33,6 +33,18 @@
   --item-min-height-md: 30rem;
 }
 
+.socialIcons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.socialIcons ion-icon{
+  color: white;
+  font-size: 29px;
+}
+
 section {
   position: relative;
   width: 100%;
@@ -246,6 +258,10 @@ body.light-theme {
 
 .list-link.current {
   color: var(--light-color);
+}
+
+.open-menu-icon{
+  color: rgb(195,131,130);
 }
 
 .close-menu-icon {
